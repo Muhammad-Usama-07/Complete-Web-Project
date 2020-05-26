@@ -1,6 +1,4 @@
-.colourr{
-    background: linear-gradient(to right, #996633 0%, #ff9900 100%);
-}
-.smi i{
-    color:white;
+.bg-colour{
+    background: linear-gradient(to right, #0066ff 0%, #99ccff 100%);
+
 }
