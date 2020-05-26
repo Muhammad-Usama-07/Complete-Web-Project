@@ -2,7 +2,9 @@
     background: linear-gradient(to right, #0066ff 0%, #99ccff 100%);
 
 }
-
+.icon_colour{
+    color: white;
+}
 .vertical-menu {
     margin-top: 10px;
    /* Set a width if you like */
@@ -10,22 +12,31 @@
 }
 .vertical-menu ul{
     list-style: none;
-    width: 80px;
 }
-.vertical-menu a {
-  background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);/*  Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+/*.vertical-menu a {
+  background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);/*  Grey background color 
+  color: black;  Black text color 
+  display: block; /* Make the links appear below each other 
+  padding: 20px; /* Add some padding 
+  text-decoration: none; /* Remove underline from links 
 }
 
 .vertical-menu a:hover {
     width: 200px;
-  background-color: #ccc; /* Dark grey background on mouse-over */
+  background-color: #ccc; /* Dark grey background on mouse-over 
+}*/
+
+.vertical-menu ul li{
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    background-color: #0066ff;
+    border-radius: 3px;
 }
-
-
+.pos {
+    margin-left: 17px;
+    margin-top: 15px;
+}
 
 
 
