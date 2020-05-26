@@ -9,7 +9,7 @@
 }
 
 .vertical-menu a {
-  background-color: #eee; /* Grey background color */
+  background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
