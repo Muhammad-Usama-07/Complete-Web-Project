@@ -5,14 +5,14 @@
 
 .vertical-menu {
     margin-top: 10px;
-  width: 200px; /* Set a width if you like */
+  width: 80px; /* Set a width if you like */
 }
 
 .vertical-menu a {
   background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
+  padding: 20px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
 }
 
