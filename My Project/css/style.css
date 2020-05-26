@@ -5,11 +5,15 @@
 
 .vertical-menu {
     margin-top: 10px;
-  width: 80px; /* Set a width if you like */
+   /* Set a width if you like */
+    border-radius: 3px;
 }
-
+.vertical-menu ul{
+    list-style: none;
+    width: 80px;
+}
 .vertical-menu a {
-  /* background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%); Grey background color */
+  background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);/*  Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 20px; /* Add some padding */
@@ -20,4 +24,8 @@
     width: 200px;
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
+
+
+
+
 
