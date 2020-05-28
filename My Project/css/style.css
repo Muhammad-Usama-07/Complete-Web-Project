@@ -5,38 +5,46 @@
 .icon_colour{
     color: white;
 }
-.vertical-menu {
-    margin-top: 10px;
-   /* Set a width if you like */
-    border-radius: 3px;
+.vertical-menu{
+    position: fixed;
 }
 .vertical-menu ul{
     list-style: none;
+    padding: 0;
 }
-/*.vertical-menu a {
-  background: linear-gradient(to bottom left, #0066ff 0%, #99ccff 100%);/*  Grey background color 
-  color: black;  Black text color 
-  display: block; /* Make the links appear below each other 
-  padding: 20px; /* Add some padding 
-  text-decoration: none; /* Remove underline from links 
-}
-
-.vertical-menu a:hover {
-    width: 200px;
-  background-color: #ccc; /* Dark grey background on mouse-over 
-}*/
-
 .vertical-menu ul li{
-    margin-top: 5px;
-    width: 70px;
-    height: 70px;
-    background-color: #0066ff;
-    border-radius: 3px;
+    display: block;
+    margin: 5px;
+    background:linear-gradient(to right, #0066ff 0%, #99ccff 100%); 
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-top: 15px;
+    transition: all 1s;
 }
-.pos {
-    margin-left: 17px;
-    margin-top: 15px;
+.vertical-menu ul li:hover{
+    width: 300px;
+    transform: translateX();
+    
 }
+
+.vertical-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.vertical-menu ul li:hover i{
+    transform: rotate(0deg);
+}.vertical-menu ul li i{
+    margin-left: 20px;
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+
+
+
+
 
 
 
