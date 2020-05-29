@@ -4,5 +4,10 @@
 
 }
 .icon_colour{
-    color: white;
+    color: white  !important;;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold !important; 
 }
