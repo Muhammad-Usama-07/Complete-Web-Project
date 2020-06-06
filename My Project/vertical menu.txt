@@ -1,0 +1,61 @@
+<nav class="vertical-menu">
+            <ul>
+                <li class="home">
+                    <a href="#"><i class="icon_colour fas fa-home fa-2x"></i>
+                </li>
+                <li class="locations">
+                    <a href="#"><i class="icon_colour fas fa-map fa-2x"></i></a>
+                </li>
+                <li class="catagory">
+                    <a href="#"><i class="icon_colour fas fa-bus fa-2x"></i></a>
+                </li>
+                <li class="register">
+                    <a href="#"><i class="icon_colour fas fa-user fa-2x" aria-hidden="true"></i></a>
+                </li>
+                 <li class="about">
+                    <a href="#"><i class="icon_colour fa fa-info-circle fa-2x"></i></a>
+                </li>
+            
+            
+            </ul>
+              
+</nav> 
+
+
+.vertical-menu{
+    position: fixed;
+}
+.vertical-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.vertical-menu ul li{
+    display: block;
+    margin: 5px;
+    background:linear-gradient(to right, #0066ff 0%, #99ccff 100%); 
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-top: 15px;
+    transition: all 1s;
+}
+.vertical-menu ul li:hover{
+    width: 300px;
+    transform: translateX();
+    
+}
+
+.vertical-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.vertical-menu ul li:hover i{
+    transform: rotate(0deg);
+}.vertical-menu ul li i{
+    margin-left: 20px;
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+<span class="navbar-text"><h1 style="font-size: 50px;">Alkaram Travlers</h1></span>
