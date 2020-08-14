@@ -1,3 +1,7 @@
 .my_color {
     background: linear-gradient(to right, #ff3300 0%, #cc9900 100%);
 }
+
+.top_alignment {
+    margin-top: 5%;
+}
