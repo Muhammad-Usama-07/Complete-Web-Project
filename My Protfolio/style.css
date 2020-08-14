@@ -1,14 +1,7 @@
-body html{
-    margin: 0;
-    padding: 0;
-}
 
-.backgroundimg{
-    background-image: url(Images/pexels-life-of-pix-7974.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+
+.img-jmbo{
+    background-image: url('Images/pexels-life-of-pix-7974.jpg');
+    background-size: 100% ;
     
 }
