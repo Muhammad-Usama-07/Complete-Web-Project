@@ -2,6 +2,10 @@
     background: linear-gradient(to right, #ff3300 0%, #cc9900 100%);
 }
 
+.my_color2 {
+    background: linear-gradient(to bottom, #ff3300 0%, #cc9900 100%);
+}
+
 .top_alignment {
     margin-top: 5%;
 }
